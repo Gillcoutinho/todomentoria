@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="global.css">   
+</head>
+
+<body>
+    <header class="header">
+      <img src="assets/Layer 2.png">
+      <img src="assets/todo.png">
+    </header>
+
+    <main class="wrapper-principal">
+        <div class="container">
+            <input type="text" id="add-nova-tarefa" placeholder="Adicione uma nova tarefa">
+            <button>Criar +</button>
+        </div>
+    
+        <div class="wrapper">
+            <section class="container-tarefas">
+                <div class="tarefas-criadas">
+                    <p><b>Tarefas criadas</b></p>
+                </div>
+            
+                <div class="tarefas-concluidas">
+                    <p><b>Concluidas</b></p>
+                </div>
+            </section>
+        </div>
+       
+      
+        <div class="sem-tarefas-cadastrada">
+            <div class="container-image">
+                <img src="assets/Clipboard.png">
+            </div>
+            <p><b>Você ainda não tem tarefas cadastradas</b></p>
+            <p>Crie tarefas e organize seus itens a fazer</p>
+        </div>
+        
+    </main>
+ 
+    <script src="script.js"></script>
+</body>
+
+</html>
