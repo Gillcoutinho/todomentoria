@@ -1,0 +1,36 @@
+.tarefasCriadasInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.containerTarefas{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+.tarefasCriadas {
+    color: var(--blue, #4EA8DE);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.concluidas {
+    color: var(--purple, #8284FA);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.contador {
+    width: 18px;
+    height: 14px;
+    background: var(--gray-400, #333333);
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--Gray-200, #D9D9D9);
+    text-align: center;
+}
